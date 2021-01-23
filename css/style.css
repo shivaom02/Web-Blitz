@@ -40,7 +40,7 @@ body {
   line-height: 70px;
   text-align: center;
 }
-.nav-link,
+.nav-link:link,
 .nav-link:visited,
 .nav-link:active {
   text-decoration: none;
@@ -74,9 +74,13 @@ body {
     margin-right: 0.5vw;
     font-size: 1rem;
   }
+
+  .nav-input {
+    font-size: 2vw;
+  }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
   .header {
     height: 55px;
   }
@@ -89,7 +93,7 @@ body {
 
   .nav-item {
     margin-right: 1vw;
-    font-size: 0.65rem;
+    font-size: 3vw;
     line-height: 55px;
   }
   .nav-link,
@@ -100,6 +104,6 @@ body {
 
   .nav-input {
     padding: 0.3rem 0.5rem;
-    font-size: 0.5rem;
+    font-size: 1.8vw;
   }
 }
