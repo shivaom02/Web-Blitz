@@ -1,0 +1,52 @@
+*{
+    font-family: 'Gothic A1', sans-serif;
+}
+.container{
+    padding: 0px 100px;
+}
+.heading{
+    height: 250px;
+}
+.headingText{
+    position: relative;
+    top: 35%;
+    text-align: center;
+    font-size: 65px;
+    color: #9B9B9B;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.blog{
+    width: 50%;
+}
+.blogHeading{
+    font-size: 60px;
+}
+.blogDetail{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 600;
+    line-height: 30px;
+}
+.readMore{
+    text-align: end;
+}
+.readMore a{
+ text-decoration: none;
+ font-size: large;
+ font-weight: 700;
+}
+.blogLink{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon{
+    font-size: 40px;
+}
+i{
+    padding: 20px 0px;
+}
